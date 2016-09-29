@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- 5.1.0
+deploy:
+  provider: npm
+  email: mrstebouk@gmail.com
+  api_key:
+    secure: hfnwlKR4QMgdbyrh0app7duzJqS/yv+CzFsusqLOYidM83rarW5Mjvhbr3LvWt39r/qKI4+JCULoAA4iirOxzsl1PDnf3cQ8erVtu/jufeFX5DnyZAUK6g10UP4d/Yl3GNyabsWtHGMSni8oesSz6kQZEG8bmji7M9dnBMIKQ6CDMp7Vh5IamvRPSXmh0EKegORVucGt5nC1l+9vX2h9yNYgYO/eRhwAb/Cd12NbUYucLHKI/exJmdMk6ej7Su0ymBOToF86j7WWw8gh/bfHULBThZkM1nFkOWNjYMQHZSGvF8upTn/Gn32+YMgShze6Y9kAQWgUFuq+WAVEk2HDNTP2/lL/EmMG3eQk0XNKuzrmClqeqTFhzbOxvdNafgmZoh1XwnePNSEjAlNAi0KfbwqROHlLXi9Nj5P9ynYLCuFohy4UKnp6Svkrsuc4Jm3K0iwapaSot5ctZ5cIj4k2MutpLu3N5KP9/fFg1pKRGF1HeKHw1BzNva6V5X8IGgm54HOvXBd4tEBCI1zidgBvlmqicrDETqt8r/EXKxY/CrGoxeY5USZmMxLXbrzEFl+ZHo6Hfw0+1Uv7849C8nMMx0wsvm8QI0IN2xfvYzEqXniVAr90XxR09Sx5pIhBmrqnD2QLz0o7pyD2kvPUsUr3yoZjG95dAWqXwb6rX0gQ9GU=
+  on:
+    tags: true
+    repo: mrstebo/node-downify
