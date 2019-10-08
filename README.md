@@ -4,4 +4,4 @@
 
 # node-downify
 
-converts text to lowercase
+`converts text to lowercase`
